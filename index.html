@@ -1,33 +1,83 @@
-Aqui está o HTML completo com todos os ajustes aplicados, Carlos:
-
-```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Coleção Atos — 5 E-books | Raízes da Palavra</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 <style>
-:root{--deep:#031B4E;--navy:#062A66;--blue:#0A4FA3;--electric:#1677D2;--sky:#65C2FF;--gold:#D4AF5A;--light:#F5F9FF;--text:#10233F;--muted:#63748C}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Montserrat,Arial,sans-serif;color:var(--text);line-height:1.6;background:#fff}
-.container{width:min(1120px,92%);margin:auto}.hero{min-height:790px;color:#fff;background:radial-gradient(circle at 75% 32%,#1677d255,transparent 30%),linear-gradient(135deg,#031B4E,#020D28 75%);display:flex;align-items:center;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:600px;height:600px;border:1px solid #5bb8ff22;border-radius:50%;right:-220px;bottom:-260px}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;position:relative;z-index:1}
-.badge{display:inline-block;padding:8px 13px;border:1px solid #65c2ff55;border-radius:50px;color:#a9dcff;font-size:10px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}.hero h1{font-size:clamp(43px,6vw,72px);line-height:1.02;letter-spacing:-2.5px;margin:18px 0}.hero h1 span{color:#7dceff}.hero p{font-size:16px;color:#dbe8f7;max-width:650px}.price{margin-top:25px;display:flex;align-items:end;gap:10px}.price small{color:#aac0dd;font-size:11px;margin-bottom:9px}.price strong{font-size:47px;line-height:1;color:#fff}.cta{display:inline-block;margin-top:24px;padding:17px 28px;border-radius:10px;background:linear-gradient(135deg,#2188e8,#0d5cb7);color:#fff;text-decoration:none;font-size:12px;font-weight:800;letter-spacing:.4px;box-shadow:0 15px 35px #0005}.meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:22px;color:#b7cae4;font-size:11px}
-.books{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap}.mini-book{width:130px;height:190px;padding:14px;background:linear-gradient(160deg,#0d64bd,#031538 75%);border:1px solid #72c4ff66;box-shadow:0 15px 30px #0008;border-radius:4px;color:#fff;display:flex;flex-direction:column;justify-content:space-between}.mini-book b{font-size:12px;line-height:1.1}.mini-book small{font-size:7px;letter-spacing:1.5px;color:#a9d9ff}.mini-book em{font-style:normal;font-size:8px;color:#c9e1f8}.mini-book .symbol{font-size:20px}.b2{background:linear-gradient(160deg,#1677d2,#062050 75%)}.b3{background:linear-gradient(160deg,#0a4fa3,#031538 75%)}.b4{background:linear-gradient(160deg,#125da8,#021330 75%)}.b5{background:linear-gradient(160deg,#0b6abb,#021330 75%)}.b6{background:linear-gradient(160deg,#0d7fd0,#021330 75%)}
-section{padding:85px 0}.light{background:var(--light)}.dark{background:var(--deep);color:#fff}.title{text-align:center;font-size:35px;line-height:1.12;color:var(--deep);margin:0 auto 14px;font-weight:800}.dark .title{color:#fff}.subtitle{text-align:center;max-width:780px;margin:0 auto 45px;color:var(--muted);font-size:12px}.dark .subtitle{color:#b9cce4}
-.collection{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.book-card{background:#fff;border:1px solid #dce8f6;border-radius:16px;overflow:hidden;box-shadow:0 12px 30px #062a660b;transition:.2s}.book-card:hover{transform:translateY(-5px);box-shadow:0 18px 38px #062a6620}.cover{height:250px;padding:23px 19px;color:#fff;background:linear-gradient(160deg,#0a62b9,#031538 78%);display:flex;flex-direction:column;justify-content:space-between}.book-card:nth-child(2) .cover{background:linear-gradient(160deg,#1475ce,#041c46 78%)}.book-card:nth-child(3) .cover{background:linear-gradient(160deg,#0b55a5,#031538 78%)}.book-card:nth-child(4) .cover{background:linear-gradient(160deg,#1266b8,#031538 78%)}.book-card:nth-child(5) .cover{background:linear-gradient(160deg,#0b70c7,#031538 78%)}.book-card:nth-child(6) .cover{background:linear-gradient(160deg,#0d7fd0,#031538 78%)}.cover small{font-size:8px;letter-spacing:1.5px;color:#a8dbff}.cover strong{font-size:22px;line-height:1.02}.cover .symbol{text-align:center;font-size:35px;color:#8bd0ff}.book-info{padding:20px}.book-info h3{font-size:14px;line-height:1.25;margin:0 0 8px;color:var(--deep)}.book-info p{font-size:10px;color:#68798f;margin:0}.book-info .tag{display:inline-block;margin-top:14px;font-size:9px;font-weight:700;color:var(--blue);background:#eaf5ff;padding:6px 8px;border-radius:20px}
-.value{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.value-card{background:#fff;border:1px solid #dce8f6;border-radius:16px;padding:28px}.value-card .icon{font-size:24px;margin-bottom:13px}.value-card h3{font-size:15px;margin:0 0 7px}.value-card p{font-size:11px;color:#66778d;margin:0}
-.timeline{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin-top:45px}.step{text-align:center;position:relative;padding:0 12px}.step:not(:last-child):after{content:"";position:absolute;top:22px;left:58%;width:84%;height:1px;background:#4c83b8}.num{width:45px;height:45px;border-radius:50%;margin:0 auto 14px;background:#0d65ba;color:#fff;display:grid;place-items:center;font-size:13px;font-weight:800;position:relative;z-index:2;border:5px solid var(--deep)}.step h3{font-size:12px;margin:0 0 5px}.step p{font-size:10px;color:#afc3dc;margin:0}
-.author{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;align-items:center}.author-art{height:290px;border-radius:22px;background:linear-gradient(145deg,#0a4fa3,#031b4e);display:grid;place-items:center;font-size:82px;color:#9fd7ff}.author h2{font-size:34px;color:var(--deep);margin:0 0 12px}.author p,.author li{font-size:11px;color:#60718a}.author ul{padding-left:18px}
-.offer{background:linear-gradient(135deg,#031B4E,#073d86);color:#fff;text-align:center}.offer .title{color:#fff}.offer .bigprice{font-size:58px;font-weight:800;line-height:1;margin:15px 0 5px}.offer p{font-size:12px;color:#c9dcf4}.offer .cta{background:#fff;color:#073d86}
-.faq{max-width:780px;margin:auto}.faq details{border-bottom:1px solid #dbe5f1;padding:17px 0}.faq summary{cursor:pointer;font-size:12px;font-weight:700;color:var(--deep)}.faq p{font-size:11px;color:#64758a}
-.reviews{max-width:900px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:22px}.review-card{background:#fff;border:1px solid #dce8f6;border-radius:16px;padding:26px}.review-card b{display:block;color:var(--deep);font-size:13px;margin-bottom:10px}.review-card p{font-size:11px;color:#66778d;margin:0 0 14px;font-style:italic}.review-card span{font-size:11px;font-weight:700;color:var(--blue)}
-@media(max-width:700px){.reviews{grid-template-columns:1fr}}
-footer{background:#020e29;color:#91a9c8;padding:35px 0;text-align:center;font-size:10px}
-@media(max-width:900px){.collection{grid-template-columns:repeat(2,1fr)}.timeline{grid-template-columns:1fr;gap:25px}.step:not(:last-child):after{display:none}.hero-grid,.author{grid-template-columns:1fr}.value{grid-template-columns:1fr}}
-@media(max-width:550px){.collection{grid-template-columns:1fr}.mini-book{width:100px;height:150px;padding:10px}.hero{text-align:center}.hero p{margin:auto}.price{justify-content:center}.meta{justify-content:center}.hero h1{letter-spacing:-1px}}
+  :root {
+    --deep: #031B4E;
+    --navy: #062A66;
+    --blue: #0A4FA3;
+    --electric: #1677D2;
+    --sky: #65C2FF;
+    --gold: #D4AF5A;
+    --light: #F5F9FF;
+    --text: #10233F;
+    --muted: #63748C;
+  }
+  * {box-sizing: border-box;}
+  html {scroll-behavior: smooth;}
+  body {margin: 0; font-family: Montserrat, Arial, sans-serif; color: var(--text); line-height: 1.6; background: #fff;}
+  .container {width: min(1120px, 92%); margin: auto;}
+
+  .hero {background: linear-gradient(135deg, var(--deep), var(--navy)); color: #fff; padding: 60px 0;}
+  .hero-grid {display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center;}
+  .badge {display: inline-block; background: rgba(255,255,255,0.12); padding: 6px 14px; border-radius: 999px; font-size: 12px; font-weight: 700; letter-spacing: 0.5px; margin-bottom: 20px;}
+  h1 {font-size: 38px; font-weight: 800; margin: 0 0 20px; line-height: 1.25;}
+  h1 span {color: var(--sky);}
+  .hero p {font-size: 15px; color: #D7E4F5; max-width: 480px;}
+  .price {margin: 24px 0;}
+  .price small {display: block; font-size: 12px; letter-spacing: 1px; color: #9FC0E8; margin-bottom: 4px;}
+  .price strong {font-size: 40px; font-weight: 800; color: var(--gold);}
+  .cta {display: inline-block; background: var(--gold); color: var(--deep); font-weight: 800; padding: 16px 32px; border-radius: 10px; text-decoration: none; font-size: 15px; letter-spacing: 0.5px; transition: transform .2s;}
+  .cta:hover {transform: translateY(-2px);}
+  .meta {display: flex; gap: 16px; flex-wrap: wrap; margin-top: 20px; font-size: 12px; color: #C6D9EF;}
+
+  .books {display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px;}
+  .mini-book {background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.15); border-radius: 12px; padding: 16px; text-align: center;}
+  .mini-book small {font-size: 10px; letter-spacing: 1px; color: var(--sky); font-weight: 700;}
+  .mini-book .symbol {font-size: 20px; color: var(--gold); margin: 8px 0;}
+  .mini-book b {font-size: 13px; display: block; line-height: 1.3;}
+  .mini-book em {font-size: 11px; color: #A9C3E4; display: block; margin-top: 6px;}
+
+  .light {padding: 70px 0; background: var(--light);}
+  .title {text-align: center; font-size: 30px; font-weight: 800; color: var(--deep); margin-bottom: 14px;}
+  .subtitle {text-align: center; max-width: 640px; margin: 0 auto 40px; color: var(--muted); font-size: 15px;}
+
+  .collection {display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;}
+  .book-card {background: #fff; border-radius: 14px; overflow: hidden; box-shadow: 0 6px 20px rgba(10,79,163,0.08); display: flex; flex-direction: column;}
+  .book-card .cover {background: linear-gradient(135deg, var(--blue), var(--electric)); color: #fff; padding: 24px; text-align: center;}
+  .book-card .cover small {font-size: 10px; letter-spacing: 1px; opacity: 0.85;}
+  .book-card .cover .symbol {font-size: 22px; color: var(--gold); margin: 10px 0;}
+  .book-card .cover strong {font-size: 15px; display: block; line-height: 1.3;}
+  .book-card .cover small:last-child {display: block; margin-top: 10px; font-size: 11px; opacity: 0.8;}
+  .book-info {padding: 20px; flex: 1; display: flex; flex-direction: column;}
+  .book-info h3 {font-size: 16px; color: var(--deep); margin: 0 0 8px;}
+  .book-info p {font-size: 13px; color: var(--muted); flex: 1;}
+  .tag {display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; color: var(--blue); background: #EAF2FC; padding: 5px 10px; border-radius: 999px; width: fit-content;}
+
+  .offer {background: var(--deep); color: #fff; padding: 70px 0; text-align: center;}
+  .offer h2 {font-size: 28px; font-weight: 800; margin-bottom: 10px;}
+  .offer p {color: #C6D9EF; max-width: 600px; margin: 0 auto 30px;}
+  .bigprice {font-size: 48px; font-weight: 800; color: var(--gold); margin-bottom: 6px;}
+  .bonus-line {font-size: 14px; font-weight: 700; margin-bottom: 24px; color: #D7E4F5;}
+
+  .faq {padding: 70px 0;}
+  .faq-item {border-bottom: 1px solid #E1E8F2; padding: 18px 0;}
+  .faq-item h4 {font-size: 15px; color: var(--deep); margin: 0 0 6px;}
+  .faq-item p {font-size: 13px; color: var(--muted); margin: 0;}
+
+  .footer {background: var(--deep); color: #C6D9EF; text-align: center; padding: 30px 0; font-size: 12px;}
+
+  @media (max-width: 860px) {
+    .hero-grid {grid-template-columns: 1fr;}
+    .collection {grid-template-columns: 1fr;}
+    h1 {font-size: 28px;}
+  }
 </style>
 </head>
 <body>
@@ -38,17 +88,17 @@ footer{background:#020e29;color:#91a9c8;padding:35px 0;text-align:center;font-si
 <div class="badge">Coleção completa · E-books 1 a 5</div>
 <h1>Uma jornada por Atos.<br><span>5 E-books. Um só propósito.</span></h1>
 <p>Leve para sua casa, sua Escola Bíblica ou seu Pequeno Grupo a coleção completa de estudos dos 12 primeiros capítulos do livro de Atos dos Apóstolos. Uma jornada que começa no agir do Espírito Santo e avança até a expansão da Graça e do Evangelho sem fronteiras.</p>
-<div class="price"><small>COLEÇÃO COMPLETA POR</small><strong>r$ 69,70</strong></div>
+<div class="price"><small>COLEÇÃO COMPLETA POR</small><strong>R$ 69,70</strong></div>
 <a class="cta" href="https://payfast.greenn.com.br/jaeqbrn" target="_blank" rel="noopener noreferrer">QUERO A COLEÇÃO COMPLETA</a>
 <div class="meta"><span>✓ 5 E-books</span><span>✓ Estudos em Atos</span><span>✓ Escola Bíblica</span><span>✓ Pequenos Grupos</span></div>
 </div>
 <div class="books">
-<div class="mini-book b1"><small>E-BOOK 1</small><div><div class="symbol">✦</div><b>O AGIR DO<br>ESPÍRITO SANTO</b></div><em>Atos 1–2</em></div>
-<div class="mini-book b2"><small>E-BOOK 2</small><div><div class="symbol">✦</div><b>IGREJA EM<br>MOVIMENTO</b></div><em>Atos 3–5</em></div>
-<div class="mini-book b3"><small>E-BOOK 3</small><div><div class="symbol">✦</div><b>FÉ FORJADA<br>NO FOGO</b></div><em>Atos 5–7</em></div>
-<div class="mini-book b4"><small>E-BOOK 4</small><div><div class="symbol">✦</div><b>A MISSÃO<br>DA IGREJA</b></div><em>Atos 8–9</em></div>
-<div class="mini-book b5"><small>E-BOOK 5</small><div><div class="symbol">✦</div><b>A EXPANSÃO<br>DA GRAÇA</b></div><em>Atos 10–12</em></div>
-<div class="mini-book b6"><small>E-BOOK BÔNUS</small><div><div class="symbol">✦</div><b>DESPERTANDO O<br>DNA DA IGREJA</b></div><em>Atos 29</em></div>
+<div class="mini-book"><small>E-BOOK 1</small><div><div class="symbol">✦</div><b>O AGIR DO<br>ESPÍRITO SANTO</b></div><em>Atos 1–2</em></div>
+<div class="mini-book"><small>E-BOOK 2</small><div><div class="symbol">✦</div><b>IGREJA EM<br>MOVIMENTO</b></div><em>Atos 3–5</em></div>
+<div class="mini-book"><small>E-BOOK 3</small><div><div class="symbol">✦</div><b>FÉ FORJADA<br>NO FOGO</b></div><em>Atos 5–7</em></div>
+<div class="mini-book"><small>E-BOOK 4</small><div><div class="symbol">✦</div><b>A MISSÃO<br>DA IGREJA</b></div><em>Atos 8–9</em></div>
+<div class="mini-book"><small>E-BOOK 5</small><div><div class="symbol">✦</div><b>A EXPANSÃO<br>DA GRAÇA</b></div><em>Atos 10–12</em></div>
+<div class="mini-book"><small>E-BOOK BÔNUS</small><div><div class="symbol">✦</div><b>DESPERTANDO O<br>DNA DA IGREJA</b></div><em>Atos 29</em></div>
 </div>
 </div>
 </header>
@@ -59,134 +109,82 @@ footer{background:#020e29;color:#91a9c8;padding:35px 0;text-align:center;font-si
 <p class="subtitle">Os cinco e-books formam uma sequência de estudos que acompanha o avanço da Igreja Primitiva e transforma os acontecimentos de Atos em aplicações para a igreja de hoje.</p>
 <div class="collection">
 
-<div class="book-card"><div class="cover"><small>E-BOOK 1</small><div><div class="symbol">✦</div><strong>O AGIR DO<br>ESPÍRITO SANTO</strong></div><small>Atos 1–2</small></div><div class="book-info"><h3>O Agir do Espírito Santo</h3><p>O poder do Espírito Santo como motor da vida cristã, do testemunho e da missão.</p><span class="tag">ESPÍRITO · PODER · MISSÃO</span></div></div>
+<div class="book-card">
+<div class="cover"><small>E-BOOK 1</small><div><div class="symbol">✦</div><strong>O AGIR DO<br>ESPÍRITO SANTO</strong></div><small>Atos 1–2</small></div>
+<div class="book-info"><h3>O Agir do Espírito Santo</h3><p>O poder do Espírito Santo como motor da vida cristã, do testemunho e da missão.</p><span class="tag">ESPÍRITO · PODER · MISSÃO</span></div>
+</div>
 
-<div class="book-card"><div class="cover"><small>E-BOOK 2</small><div><div class="symbol">✦</div><strong>IGREJA EM<br>MOVIMENTO</strong></div><small>Atos 3–5</small></div><div class="book-info"><h3>Igreja em Movimento</h3><p>Uma igreja que avança, cura, prega, enfrenta oposição e vive generosidade e temor.</p><span class="tag">COMUNIDADE · CORAGEM · CUIDADO</span></div></div>
+<div class="book-card">
+<div class="cover"><small>E-BOOK 2</small><div><div class="symbol">✦</div><strong>IGREJA EM<br>MOVIMENTO</strong></div><small>Atos 3–5</small></div>
+<div class="book-info"><h3>Igreja em Movimento</h3><p>Uma igreja que avança, cura, prega, enfrenta oposição e vive generosidade e temor.</p><span class="tag">COMUNIDADE · CORAGEM · CUIDADO</span></div>
+</div>
 
-<div class="book-card"><div class="cover"><small>E-BOOK 3</small><div><div class="symbol">✦</div><strong>FÉ FORJADA<br>NO FOGO</strong></div><small>Atos 5–7</small></div><div class="book-info"><h3>Uma Igreja Perseverante</h3><p>Fé, integridade, serviço e coragem para permanecer firme diante das provações.</p><span class="tag">FÉ · PERSEVERANÇA · SANTIDADE</span></div></div>
+<div class="book-card">
+<div class="cover"><small>E-BOOK 3</small><div><div class="symbol">✦</div><strong>FÉ FORJADA<br>NO FOGO</strong></div><small>Atos 5–7</small></div>
+<div class="book-info"><h3>Uma Igreja Perseverante</h3><p>Fé, integridade, serviço e coragem para permanecer firme diante das provações.</p><span class="tag">FÉ · PERSEVERANÇA · SANTIDADE</span></div>
+</div>
 
-<div class="book-card"><div class="cover"><small>E-BOOK 4</small><div><div class="symbol">✦</div><strong>A MISSÃO<br>DA IGREJA</strong></div><small>Atos 8–9</small></div><div class="book-info"><h3>A Missão da Igreja</h3><p>Missão, cuidado e avanço do Evangelho, rompendo fronteiras e levando a igreja à ação.</p><span class="tag">MISSÃO · CUIDADO · AVANÇO</span></div></div>
+<div class="book-card">
+<div class="cover"><small>E-BOOK 4</small><div><div class="symbol">✦</div><strong>A MISSÃO<br>DA IGREJA</strong></div><small>Atos 8–9</small></div>
+<div class="book-info"><h3>A Missão da Igreja</h3><p>Missão, cuidado e avanço do Evangelho, rompendo fronteiras e levando a igreja à ação.</p><span class="tag">MISSÃO · CUIDADO · AVANÇO</span></div>
+</div>
 
-<div class="book-card"><div class="cover"><small>E-BOOK 5</small><div><div class="symbol">✦</div><strong>A EXPANSÃO<br>DA GRAÇA</strong></div><small>Atos 10–12</small></div><div class="book-info"><h3>A Expansão da Graça</h3><p>Graça sem preconceitos, oração incessante e o Evangelho alcançando novas fronteiras.</p><span class="tag">GRAÇA · ORAÇÃO · EXPANSÃO</span></div></div>
+<div class="book-card">
+<div class="cover"><small>E-BOOK 5</small><div><div class="symbol">✦</div><strong>A EXPANSÃO<br>DA GRAÇA</strong></div><small>Atos 10–12</small></div>
+<div class="book-info"><h3>A Expansão da Graça</h3><p>Graça sem preconceitos, oração incessante e o Evangelho alcançando novas fronteiras.</p><span class="tag">GRAÇA · ORAÇÃO · EXPANSÃO</span></div>
+</div>
 
-<div class="book-card"><div class="cover"><small>E-BOOK BÔNUS</small><div><div class="symbol">✦</div><strong>DESPERTANDO O<br>DNA DA IGREJA</strong></div><small>Atos 29</small></div><div class="book-info"><h3>Despertando o DNA da Igreja — Atos 29</h3><p>Um convite para um avivamento prático em nossos dias. A pergunta que deve ecoar em nosso coração não é apenas o que Deus fez naquela época, mas o que estamos fazendo hoje com o mesmo Evangelho que transformou aquela geração. Afinal, a narrativa bíblica de Atos termina no capítulo 28, mas a missão da Igreja nunca parou.</p><span class="tag">AVIVAMENTO · MISSÃO · CONTINUIDADE</span><p style="margin-top:12px;font-weight:700;color:#0a4fa3;">Valor: r$ 29,70</p></div></div>
-
+<div class="book-card">
+<div class="cover"><small>E-BOOK BÔNUS</small><div><div class="symbol">✦</div><strong>DESPERTANDO O<br>DNA DA IGREJA</strong></div><small>Atos 29</small></div>
+<div class="book-info">
+<h3>Despertando o DNA da Igreja — Atos 29</h3>
+<p>Um convite para um avivamento prático em nossos dias. A pergunta que deve ecoar em nosso coração não é apenas o que Deus fez naquela época, mas o que estamos fazendo hoje com o mesmo Evangelho que transformou aquela geração. Afinal, a narrativa bíblica de Atos termina no capítulo 28, mas a missão da Igreja nunca parou.</p>
+<span class="tag">AVIVAMENTO · MISSÃO · CONTINUIDADE</span>
+<p style="margin-top:12px;font-size:13px;font-weight:800;color:var(--blue);">Valor: R$ 29,70</p>
 </div>
 </div>
-</section>
 
-<section class="dark">
-<div class="container">
-<h2 class="title">Uma sequência que acompanha<br>o crescimento da Igreja</h2>
-<p class="subtitle">A coleção foi construída como uma jornada progressiva: do poder do Espírito à missão, do amadurecimento da fé à expansão da Graça.</p>
-<div class="timeline">
-<div class="step"><div class="num">1</div><h3>O Espírito Santo</h3><p>Atos 1–2 · Poder para testemunhar.</p></div>
-<div class="step"><div class="num">2</div><h3>Uma Igreja em Movimento</h3><p>Atos 3–5 · Fé que age e avança.</p></div>
-<div class="step"><div class="num">3</div><h3>Fé Forjada no Fogo</h3><p>Atos 5–7 · Perseverança e integridade.</p></div>
-<div class="step"><div class="num">4</div><h3>A Missão da Igreja</h3><p>Atos 8–9 · O Evangelho ultrapassa fronteiras.</p></div>
-<div class="step"><div class="num">5</div><h3>A Expansão da Graça</h3><p>Atos 10–12 · Graça, oração e inclusão.</p></div>
-</div>
-</div>
-</section>
-
-<section class="light">
-<div class="container">
-<h2 class="title">Imagem Ilustrativa:</h2>
-<img src="https://drive.google.com/uc?export=view&id=1t2xzf4Hg43WsNhYSNNfWkeTYrSFAPTf3" alt="Imagem ilustrativa da coleção Atos" style="width:100%;border-radius:12px;">
-</div>
-</section>
-
-<section class="light">
-<div class="container author">
-<div class="author-art">✦</div>
-<div>
-<h2>Uma coleção escrita para a Igreja</h2>
-<p><b>Rev. Rodrigo Alexandre de Melo</b></p>
-<p>Pastor desde 2000, ordenado Reverendo em 2006 e membro da Igreja do Nazareno desde 1994, o Rev. Rodrigo Alexandre de Melo possui mais de 25 anos de ministério.</p>
-<p>Com experiência como pastor titular e plantador de igrejas, seu trabalho tem compromisso com evangelismo, discipulado, cuidado pastoral e desenvolvimento de liderança, alinhado à Doutrina de Santidade Wesleyana.</p>
-<ul>
-<li>Bacharelado em Teologia</li>
-<li>Pós-graduação em Pregação Bíblica</li>
-<li>Pós-graduação em Gestão Estratégica de Pessoas</li>
-<li>MBA em Gestão Estratégica de Negócios</li>
-</ul>
 </div>
 </div>
 </section>
 
 <section class="offer">
 <div class="container">
-<h2 class="title">Leve os 5 E-books</h2>
-<p>por apenas</p>
-<div class="bigprice">r$ 69,70</div>
-<p>O acesso à coleção completa: O Agir do Espírito Santo + Igreja em Movimento + Fé Forjada no Fogo + A Missão da Igreja + A Expansão da Graça.</p>
-<a class="cta" href="https://payfast.greenn.com.br/jaeqbrn" target="_blank" rel="noopener noreferrer">QUERO A COLEÇÃO COMPLETA</a>
+<h2>Garanta agora a Coleção Completa</h2>
+<p>5 e-books com estudos aprofundados sobre os primeiros capítulos de Atos, prontos para uso pessoal, em Escolas Bíblicas ou Pequenos Grupos.</p>
+<div class="bigprice">R$ 69,70</div>
+<div class="bonus-line">+ Bônus: E-book Despertando o DNA da Igreja — R$ 29,70</div>
+<a class="cta" href="https://payfast.greenn.com.br/jaeqbrn" target="_blank" rel="noopener noreferrer">QUERO GARANTIR MINHA COLEÇÃO</a>
+</div>
+</section>
 
-<div style="margin-top:35px;padding-top:30px;border-top:1px solid #ffffff30;">
-<p style="font-size:13px;color:#c9dcf4;margin-bottom:12px;">Ou adquira separadamente:</p>
-<p style="font-size:14px;font-weight:700;margin-bottom:10px;">E-book Despertando o DNA da Igreja — r$ 29,70</p>
-<a class="cta" href="https://payfast.greenn.com.br/jaeqbrn" target="_blank" rel="noopener noreferrer">QUERO O E-BOOK DESPERTANDO O DNA DA IGREJA</a>
+<section class="faq">
+<div class="container">
+<h2 class="title">Perguntas Frequentes</h2>
+<div class="faq-item">
+<h4>Qual o valor da coleção completa?</h4>
+<p>O valor promocional informado para a coleção é de R$ 69,70, incluindo os 5 e-books principais.</p>
+</div>
+<div class="faq-item">
+<h4>O e-book bônus está incluso no valor da coleção?</h4>
+<p>O e-book bônus "Despertando o DNA da Igreja" tem valor individual de R$ 29,70 e pode ser adquirido junto à coleção.</p>
+</div>
+<div class="faq-item">
+<h4>Como recebo os e-books após a compra?</h4>
+<p>Após a confirmação do pagamento, você recebe o acesso aos materiais digitais por e-mail.</p>
+</div>
+<div class="faq-item">
+<h4>Posso usar os e-books em Pequenos Grupos e Escola Bíblica?</h4>
+<p>Sim, os materiais foram desenvolvidos justamente para uso em estudos individuais, Escola Bíblica e Pequenos Grupos.</p>
 </div>
 </div>
 </section>
 
-<section class="light">
+<footer class="footer">
 <div class="container">
-<h2 class="title">Perguntas frequentes</h2>
-<div class="faq">
-<details>
-<summary>O que está incluído na compra?</summary>
-<p>Você receberá a coleção completa com os cinco e-books da série de estudos e mensagens no Livro de Atos.</p>
-</details>
-<details>
-<summary>Quanto custa a coleção completa?</summary>
-<p>O valor promocional informado para a coleção é de r$ 69,70.</p>
-</details>
-<details>
-<summary>Para quem os e-books são indicados?</summary>
-<p>Para cristãos, líderes, professores de Escola Bíblica, facilitadores de Pequenos Grupos, Células e pessoas que desejam estudar Atos com aplicação prática.</p>
-</details>
-<details>
-<summary>Os e-books podem ser usados para estudos em grupo?</summary>
-<p>Sim. Os materiais foram estruturados para uso em devocionais individuais, Escola Bíblica, Grupos Pequenos e Células, conforme a proposta da coleção.</p>
-</details>
-<details>
-<summary>Preciso comprar cada e-book separadamente?</summary>
-<p>Não. Esta página oferece a coleção completa dos cinco e-books em uma única oferta por r$ 69,70.</p>
-</details>
-</div>
-</div>
-</section>
-
-<section class="dark">
-<div class="container">
-<h2 class="title">Recomendações Leitores<br>dos E-books</h2>
-<div class="reviews">
-<div class="review-card">
-<b>Recomendação 1</b>
-<p>"Gostei muito da leitura e do estudo dos e-books. O conteúdo é muito claro, edificante e nos ajuda a enxergar o livro de Atos, de uma maneira prática e atual. Sem dúvida, é uma coleção que vale a pena ler e compartilhar!"</p>
-<span>Lucia Helena</span>
-</div>
-<div class="review-card">
-<b>Recomendação 2</b>
-<p>"Foi uma leitura muito agradável e, ao mesmo tempo, desafiadora. Os e-books trazem ensinamentos importantes de Atos e ajudam a gente a pensar em como viver uma fé mais prática e comprometida. É muito bom perceber como a mensagem da Igreja do início continua tão atual para nós hoje!"</p>
-<span>Laurentino de Souza</span>
-</div>
-</div>
-</div>
-</section>
-
-<footer>
-<div class="container">
-<p>Raízes da Palavra · Coleção de E-books 1–5</p>
-<p>Uma jornada pelo Livro de Atos — do agir do Espírito à expansão da Graça.</p>
-<p>E-book Despertando o DNA da Igreja.</p>
-<p>Material produzido e gerado por: Carlos Newman - Gerente de Projetos / Delivery Manager / Produtor Digital</p>
+<p>Raízes da Palavra © 2026 — Todos os direitos reservados.</p>
 </div>
 </footer>
 
 </body>
 </html>
-```
-
-Assim que tiver o link do CTA do e-book bônus, me avise para eu atualizar o `href`.
