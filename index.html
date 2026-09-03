@@ -10,11 +10,11 @@
 <style>
 :root{--deep:#031B4E;--navy:#062A66;--blue:#0A4FA3;--electric:#1677D2;--sky:#65C2FF;--gold:#D4AF5A;--light:#F5F9FF;--text:#10233F;--muted:#63748C}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Montserrat,Arial,sans-serif;color:var(--text);line-height:1.6;background:#fff}
-.container{width:min(1120px,92%);margin:auto}.hero{min-height:850px;color:#fff;background:radial-gradient(circle at 75% 32%,#1677d255,transparent 30%),linear-gradient(135deg,#031B4E,#020D28 75%);display:flex;align-items:center;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:600px;height:600px;border:1px solid #5bb8ff22;border-radius:50%;right:-220px;bottom:-260px}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;position:relative;z-index:1}
+.container{width:min(1120px,92%);margin:auto}.hero{min-height:900px;color:#fff;background:radial-gradient(circle at 75% 32%,#1677d255,transparent 30%),linear-gradient(135deg,#031B4E,#020D28 75%);display:flex;align-items:center;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:600px;height:600px;border:1px solid #5bb8ff22;border-radius:50%;right:-220px;bottom:-260px}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;position:relative;z-index:1}
 .badge{display:inline-block;padding:8px 13px;border:1px solid #65c2ff55;border-radius:50px;color:#a9dcff;font-size:10px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}.hero h1{font-size:clamp(43px,6vw,72px);line-height:1.02;letter-spacing:-2.5px;margin:18px 0}.hero h1 span{color:#7dceff}.hero p{font-size:16px;color:#dbe8f7;max-width:650px}.price{margin-top:25px;display:flex;align-items:end;gap:10px}.price small{color:#aac0dd;font-size:11px;margin-bottom:9px}.price strong{font-size:47px;line-height:1;color:#fff}.cta{display:inline-block;margin-top:24px;padding:17px 28px;border-radius:10px;background:linear-gradient(135deg,#2188e8,#0d5cb7);color:#fff;text-decoration:none;font-size:12px;font-weight:800;letter-spacing:.4px;box-shadow:0 15px 35px #0005}.meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:22px;color:#b7cae4;font-size:11px}
 .books{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap}.mini-book{width:130px;height:190px;padding:14px;background:linear-gradient(160deg,#0d64bd,#031538 75%);border:1px solid #72c4ff66;box-shadow:0 15px 30px #0008;border-radius:4px;color:#fff;display:flex;flex-direction:column;justify-content:space-between}.mini-book b{font-size:12px;line-height:1.1}.mini-book small{font-size:7px;letter-spacing:1.5px;color:#a9d9ff}.mini-book em{font-style:normal;font-size:8px;color:#c9e1f8}.mini-book .symbol{font-size:20px}.b2{background:linear-gradient(160deg,#1677d2,#062050 75%)}.b3{background:linear-gradient(160deg,#0a4fa3,#031538 75%)}.b4{background:linear-gradient(160deg,#125da8,#021330 75%)}.b5{background:linear-gradient(160deg,#0b6abb,#021330 75%)}.b6{background:linear-gradient(160deg,#0a4fa3,#020d28 75%)}
 section{padding:85px 0}.light{background:var(--light)}.dark{background:var(--deep);color:#fff}.title{text-align:center;font-size:35px;line-height:1.12;color:var(--deep);margin:0 auto 14px;font-weight:800}.dark .title{color:#fff}.subtitle{text-align:center;max-width:780px;margin:0 auto 45px;color:var(--muted);font-size:12px}.dark .subtitle{color:#b9cce4}
-.collection{display:grid;grid-template-columns:repeat(6,1fr);gap:15px}.book-card{background:#fff;border:1px solid #dce8f6;border-radius:16px;overflow:hidden;box-shadow:0 12px 30px #062a660b;transition:.2s}.book-card:hover{transform:translateY(-5px);box-shadow:0 18px 38px #062a6620}.cover{height:250px;padding:23px 19px;color:#fff;background:linear-gradient(160deg,#0a62b9,#031538 78%);display:flex;flex-direction:column;justify-content:space-between}.book-card:nth-child(2) .cover{background:linear-gradient(160deg,#1475ce,#041c46 78%)}.book-card:nth-child(3) .cover{background:linear-gradient(160deg,#0b55a5,#031538 78%)}.book-card:nth-child(4) .cover{background:linear-gradient(160deg,#1266b8,#031538 78%)}.book-card:nth-child(5) .cover{background:linear-gradient(160deg,#0b70c7,#031538 78%)}.book-card:nth-child(6) .cover{background:linear-gradient(160deg,#0a4fa3,#020d28 78%)}.cover small{font-size:8px;letter-spacing:1.5px;color:#a8dbff}.cover strong{font-size:22px;line-height:1.02}.cover .symbol{text-align:center;font-size:35px;color:#8bd0ff}.book-info{padding:20px}.book-info h3{font-size:14px;line-height:1.25;margin:0 0 8px;color:var(--deep)}.book-info p{font-size:10px;color:#68798f;margin:0}.book-info .tag{display:inline-block;margin-top:14px;font-size:9px;font-weight:700;color:var(--blue);background:#eaf5ff;padding:6px 8px;border-radius:20px}
+.collection{display:grid;grid-template-columns:repeat(5,1fr);gap:15px}.book-card{background:#fff;border:1px solid #dce8f6;border-radius:16px;overflow:hidden;box-shadow:0 12px 30px #062a660b;transition:.2s}.book-card:hover{transform:translateY(-5px);box-shadow:0 18px 38px #062a6620}.cover{height:250px;padding:23px 19px;color:#fff;background:linear-gradient(160deg,#0a62b9,#031538 78%);display:flex;flex-direction:column;justify-content:space-between}.book-card:nth-child(2) .cover{background:linear-gradient(160deg,#1475ce,#041c46 78%)}.book-card:nth-child(3) .cover{background:linear-gradient(160deg,#0b55a5,#031538 78%)}.book-card:nth-child(4) .cover{background:linear-gradient(160deg,#1266b8,#031538 78%)}.book-card:nth-child(5) .cover{background:linear-gradient(160deg,#0b70c7,#031538 78%)}.cover small{font-size:8px;letter-spacing:1.5px;color:#a8dbff}.cover strong{font-size:22px;line-height:1.02}.cover .symbol{text-align:center;font-size:35px;color:#8bd0ff}.book-info{padding:20px}.book-info h3{font-size:14px;line-height:1.25;margin:0 0 8px;color:var(--deep)}.book-info p{font-size:10px;color:#68798f;margin:0}.book-info .tag{display:inline-block;margin-top:14px;font-size:9px;font-weight:700;color:var(--blue);background:#eaf5ff;padding:6px 8px;border-radius:20px}
 .value{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.value-card{background:#fff;border:1px solid #dce8f6;border-radius:16px;padding:28px}.value-card .icon{font-size:24px;margin-bottom:13px}.value-card h3{font-size:15px;margin:0 0 7px}.value-card p{font-size:11px;color:#66778d;margin:0}
 .timeline{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin-top:45px}.step{text-align:center;position:relative;padding:0 12px}.step:not(:last-child):after{content:"";position:absolute;top:22px;left:58%;width:84%;height:1px;background:#4c83b8}.num{width:45px;height:45px;border-radius:50%;margin:0 auto 14px;background:#0d65ba;color:#fff;display:grid;place-items:center;font-size:13px;font-weight:800;position:relative;z-index:2;border:5px solid var(--deep)}.step h3{font-size:12px;margin:0 0 5px}.step p{font-size:10px;color:#afc3dc;margin:0}
 .author{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;align-items:center}.author-art{height:290px;border-radius:22px;background:linear-gradient(145deg,#0a4fa3,#031b4e);display:grid;place-items:center;font-size:82px;color:#9fd7ff}.author h2{font-size:34px;color:var(--deep);margin:0 0 12px}.author p,.author li{font-size:11px;color:#60718a}.author ul{padding-left:18px}
@@ -24,18 +24,25 @@ section{padding:85px 0}.light{background:var(--light)}.dark{background:var(--dee
 @media(max-width:700px){.reviews{grid-template-columns:1fr}}
 footer{background:#020e29;color:#91a9c8;padding:35px 0;text-align:center;font-size:10px}
 
-/* Boxes de Bônus (mesmo tamanho dos book-cards do hero) */
-.bonus-row{display:flex;gap:15px;margin-top:26px;flex-wrap:wrap}
-.bonus-box{width:220px;background:#ffffff0f;border:1px solid #65c2ff44;border-radius:14px;padding:18px;display:flex;flex-direction:column;justify-content:space-between;min-height:190px}
-.bonus-box .badge{margin-bottom:8px}
-.bonus-box h4{color:#fff;font-size:13px;line-height:1.25;margin:6px 0}
-.bonus-box small.ref{color:#a9d9ff;font-size:9px;letter-spacing:1px}
-.bonus-box .price{margin-top:10px}
-.bonus-box .price strong{font-size:22px}
-.bonus-box .price small{font-size:9px}
+/* ===== Bloco Bônus (caixa grande + mini-book ao lado) ===== */
+.bonus-row{display:flex;align-items:stretch;gap:15px;margin-top:26px;flex-wrap:wrap}
+.bonus-box-large{
+  flex:1;
+  min-width:280px;
+  background:#0a173a;
+  border:1px solid #65c2ff44;
+  border-radius:16px;
+  padding:26px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+.bonus-box-large h4{color:#fff;font-size:22px;margin:14px 0 10px;letter-spacing:-0.5px}
+.bonus-box-large p{font-size:12px;color:#dbe8f7;margin:0 0 16px;line-height:1.6}
+.bonus-box-large .price strong{font-size:32px}
 
-@media(max-width:900px){.collection{grid-template-columns:repeat(2,1fr)}.timeline{grid-template-columns:1fr;gap:25px}.step:not(:last-child):after{display:none}.hero-grid,.author{grid-template-columns:1fr}.value{grid-template-columns:1fr}.bonus-row{justify-content:center}}
-@media(max-width:550px){.collection{grid-template-columns:1fr}.mini-book{width:100px;height:150px;padding:10px}.hero{text-align:center}.hero p{margin:auto}.price{justify-content:center}.meta{justify-content:center}.hero h1{letter-spacing:-1px}.bonus-row{justify-content:center}}
+@media(max-width:900px){.collection{grid-template-columns:repeat(2,1fr)}.timeline{grid-template-columns:1fr;gap:25px}.step:not(:last-child):after{display:none}.hero-grid,.author{grid-template-columns:1fr}.value{grid-template-columns:1fr}.bonus-row{flex-direction:column;align-items:center}}
+@media(max-width:550px){.collection{grid-template-columns:1fr}.mini-book{width:100px;height:150px;padding:10px}.hero{text-align:center}.hero p{margin:auto}.price{justify-content:center}.meta{justify-content:center}.hero h1{letter-spacing:-1px}}
 </style>
 </head>
 <body>
@@ -50,22 +57,17 @@ footer{background:#020e29;color:#91a9c8;padding:35px 0;text-align:center;font-si
 <a class="cta" href="https://payfast.greenn.com.br/jaeqbrn" target="_blank" rel="noopener noreferrer">QUERO A COLEÇÃO COMPLETA</a>
 
 <div class="bonus-row">
-  <div class="bonus-box">
-    <div>
-      <div class="badge">E-book Bônus</div>
-      <h4>Despertando o DNA da Igreja</h4>
-      <small class="ref">Autoexame e despertar missional</small>
-    </div>
+  <div class="bonus-box-large">
+    <div class="badge">E-BOOK BÔNUS</div>
+    <h4>Despertando o DNA da Igreja</h4>
+    <p>O propósito de "Despertando o DNA da Igreja" é provocar um despertar missional e espiritual. Queremos conduzir o leitor não apenas a um conhecimento histórico, mas a um autoexame profundo, instigando cada comunidade cristã a viver o evangelho de maneira autêntica e transformadora.</p>
     <div class="price"><small>VALOR</small><strong>R$ 29,70</strong></div>
   </div>
 
-  <div class="bonus-box">
-    <div>
-      <div class="badge">E-book 6</div>
-      <h4>Despertando o DNA da Igreja</h4>
-      <small class="ref">Atos 29</small>
-    </div>
-    <div class="price"><small>VALOR</small><strong>R$ 29,70</strong></div>
+  <div class="mini-book b6">
+    <small>E-BOOK 6</small>
+    <div><div class="symbol">✦</div><b>DESPERTANDO<br>O DNA DA IGREJA</b></div>
+    <em>Atos 29</em>
   </div>
 </div>
 
@@ -77,7 +79,6 @@ footer{background:#020e29;color:#91a9c8;padding:35px 0;text-align:center;font-si
 <div class="mini-book b3"><small>E-BOOK 3</small><div><div class="symbol">✦</div><b>FÉ FORJADA<br>NO FOGO</b></div><em>Atos 5–7</em></div>
 <div class="mini-book b4"><small>E-BOOK 4</small><div><div class="symbol">✦</div><b>A MISSÃO<br>DA IGREJA</b></div><em>Atos 8–9</em></div>
 <div class="mini-book b5"><small>E-BOOK 5</small><div><div class="symbol">✦</div><b>A EXPANSÃO<br>DA GRAÇA</b></div><em>Atos 10–12</em></div>
-<div class="mini-book b6"><small>E-BOOK 6</small><div><div class="symbol">✦</div><b>DESPERTANDO<br>O DNA DA IGREJA</b></div><em>Atos 29</em></div>
 </div>
 </div>
 </header>
@@ -85,14 +86,13 @@ footer{background:#020e29;color:#91a9c8;padding:35px 0;text-align:center;font-si
 <section class="light">
 <div class="container">
 <h2 class="title">A coleção completa para<br>entender a Igreja em Atos</h2>
-<p class="subtitle">Os e-books formam uma sequência de estudos que acompanha o avanço da Igreja Primitiva e transforma os acontecimentos de Atos em aplicações para a igreja de hoje.</p>
+<p class="subtitle">Os cinco e-books formam uma sequência de estudos que acompanha o avanço da Igreja Primitiva e transforma os acontecimentos de Atos em aplicações para a igreja de hoje.</p>
 <div class="collection">
 <div class="book-card"><div class="cover"><small>E-BOOK 1</small><div><div class="symbol">✦</div><strong>O AGIR DO<br>ESPÍRITO SANTO</strong></div><small>Atos 1–2</small></div><div class="book-info"><h3>O Agir do Espírito Santo</h3><p>O poder do Espírito Santo como motor da vida cristã, do testemunho e da missão.</p><span class="tag">ESPÍRITO · PODER · MISSÃO</span></div></div>
 <div class="book-card"><div class="cover"><small>E-BOOK 2</small><div><div class="symbol">✦</div><strong>IGREJA EM<br>MOVIMENTO</strong></div><small>Atos 3–5</small></div><div class="book-info"><h3>Igreja em Movimento</h3><p>Uma igreja que avança, cura, prega, enfrenta oposição e vive generosidade e temor.</p><span class="tag">COMUNIDADE · CORAGEM · CUIDADO</span></div></div>
 <div class="book-card"><div class="cover"><small>E-BOOK 3</small><div><div class="symbol">✦</div><strong>FÉ FORJADA<br>NO FOGO</strong></div><small>Atos 5–7</small></div><div class="book-info"><h3>Uma Igreja Perseverante</h3><p>Fé, integridade, serviço e coragem para permanecer firme diante das provações.</p><span class="tag">FÉ · PERSEVERANÇA · SANTIDADE</span></div></div>
 <div class="book-card"><div class="cover"><small>E-BOOK 4</small><div><div class="symbol">✦</div><strong>A MISSÃO<br>DA IGREJA</strong></div><small>Atos 8–9</small></div><div class="book-info"><h3>A Missão da Igreja</h3><p>Missão, cuidado e avanço do Evangelho, rompendo fronteiras e levando a igreja à ação.</p><span class="tag">MISSÃO · CUIDADO · AVANÇO</span></div></div>
 <div class="book-card"><div class="cover"><small>E-BOOK 5</small><div><div class="symbol">✦</div><strong>A EXPANSÃO<br>DA GRAÇA</strong></div><small>Atos 10–12</small></div><div class="book-info"><h3>A Expansão da Graça</h3><p>Graça sem preconceitos, oração incessante e o Evangelho alcançando novas fronteiras.</p><span class="tag">GRAÇA · ORAÇÃO · EXPANSÃO</span></div></div>
-<div class="book-card"><div class="cover" style="background:linear-gradient(160deg,#0a4fa3,#020d28 78%)"><small>E-BOOK 6</small><div><div class="symbol">✦</div><strong>DESPERTANDO<br>O DNA DA IGREJA</strong></div><small>Atos 29</small></div><div class="book-info"><h3>Despertando o DNA da Igreja</h3><p>Um chamado ao autoexame profundo, provocando um despertar missional e espiritual em cada comunidade cristã.</p><span class="tag">DESPERTAR · MISSÃO · TRANSFORMAÇÃO</span></div></div>
 </div>
 </div>
 </section>
