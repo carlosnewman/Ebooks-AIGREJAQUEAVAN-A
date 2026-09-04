@@ -48,16 +48,12 @@
   .title {text-align: center; font-size: 30px; font-weight: 800; color: var(--deep); margin-bottom: 14px;}
   .subtitle {text-align: center; max-width: 640px; margin: 0 auto 40px; color: var(--muted); font-size: 15px;}
 
-  .collection {display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;}
-  .book-card {background: #fff; border-radius: 14px; overflow: hidden; box-shadow: 0 6px 20px rgba(10,79,163,0.08); display: flex; flex-direction: column;}
-  .book-card .cover {background: linear-gradient(135deg, var(--blue), var(--electric)); color: #fff; padding: 24px; text-align: center;}
-  .book-card .cover small {font-size: 10px; letter-spacing: 1px; opacity: 0.85;}
-  .book-card .cover .symbol {font-size: 22px; color: var(--gold); margin: 10px 0;}
-  .book-card .cover strong {font-size: 15px; display: block; line-height: 1.3;}
-  .book-card .cover small:last-child {display: block; margin-top: 10px; font-size: 11px; opacity: 0.8;}
-  .book-info {padding: 20px; flex: 1; display: flex; flex-direction: column;}
-  .book-info h3 {font-size: 16px; color: var(--deep); margin: 0 0 8px;}
-  .book-info p {font-size: 13px; color: var(--muted); flex: 1;}
+  .collection {display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;}
+  .book-card {background: var(--deep); border-radius: 14px; padding: 24px; box-shadow: 0 6px 20px rgba(10,79,163,0.15);}
+  .book-card .chapter-label {font-size: 12px; font-weight: 800; letter-spacing: 0.5px; color: #fff; margin: 0 0 8px;}
+  .book-card .chapter-title {font-size: 16px; font-weight: 700; color: #fff; margin: 0 0 14px; line-height: 1.35;}
+  .book-card .chapter-desc {font-size: 13px; color: #A9C3E4; line-height: 1.6; margin: 0;}
+  .book-card .chapter-desc b {color: var(--sky); font-weight: 700;}
   .tag {display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; color: var(--blue); background: #EAF2FC; padding: 5px 10px; border-radius: 999px; width: fit-content;}
 
   .offer {background: var(--deep); color: #fff; padding: 70px 0; text-align: center;}
@@ -95,12 +91,12 @@
 <div class="meta"><span>✓ 6 E-books</span><span>✓ Estudos em Atos</span><span>✓ Escola Bíblica</span><span>✓ Pequenos Grupos</span></div>
 </div>
 <div class="books">
-<div class="mini-book"><small>E-BOOK 1</small><div><div class="symbol">✦</div><b>O AGIR DO<br>ESPÍRITO SANTO</b></div><em>Atos 1–2</em></div>
-<div class="mini-book"><small>E-BOOK 2</small><div><div class="symbol">✦</div><b>IGREJA EM<br>MOVIMENTO</b></div><em>Atos 3–5</em></div>
-<div class="mini-book"><small>E-BOOK 3</small><div><div class="symbol">✦</div><b>FÉ FORJADA<br>NO FOGO</b></div><em>Atos 5–7</em></div>
-<div class="mini-book"><small>E-BOOK 4</small><div><div class="symbol">✦</div><b>A MISSÃO<br>DA IGREJA</b></div><em>Atos 8–9</em></div>
-<div class="mini-book"><small>E-BOOK 5</small><div><div class="symbol">✦</div><b>A EXPANSÃO<br>DA GRAÇA</b></div><em>Atos 10–12</em></div>
-<div class="mini-book"><small>E-BOOK</small><div><div class="symbol">✦</div><b>DESPERTANDO O<br>DNA DA IGREJA</b></div></div>
+<div class="mini-book"><small>CAPÍTULO 01</small><div><div class="symbol">✦</div><b>O AGIR DO<br>ESPÍRITO SANTO</b></div><em>Atos 1–2</em></div>
+<div class="mini-book"><small>CAPÍTULO 02</small><div><div class="symbol">✦</div><b>IGREJA EM<br>MOVIMENTO</b></div><em>Atos 3–5</em></div>
+<div class="mini-book"><small>CAPÍTULO 03</small><div><div class="symbol">✦</div><b>FÉ FORJADA<br>NO FOGO</b></div><em>Atos 5–7</em></div>
+<div class="mini-book"><small>CAPÍTULO 04</small><div><div class="symbol">✦</div><b>A MISSÃO<br>DA IGREJA</b></div><em>Atos 8–9</em></div>
+<div class="mini-book"><small>CAPÍTULO 05</small><div><div class="symbol">✦</div><b>A EXPANSÃO<br>DA GRAÇA</b></div><em>Atos 10–12</em></div>
+<div class="mini-book"><small>CAPÍTULO 06</small><div><div class="symbol">✦</div><b>DESPERTANDO O<br>DNA DA IGREJA</b></div><em>Atos 29</em></div>
 </div>
 </div>
 </header>
@@ -112,37 +108,39 @@
 <div class="collection">
 
 <div class="book-card">
-<div class="cover"><small>E-BOOK 1</small><div><div class="symbol">✦</div><strong>O AGIR DO<br>ESPÍRITO SANTO</strong></div><small>Atos 1–2</small></div>
-<div class="book-info"><h3>O Agir do Espírito Santo</h3><p>O poder do Espírito Santo como motor da vida cristã, do testemunho e da missão.</p><span class="tag">ESPÍRITO · PODER · MISSÃO</span></div>
+<p class="chapter-label">CAPÍTULO 01</p>
+<p class="chapter-title">O Agir do Espírito Santo</p>
+<p class="chapter-desc"><b>Atos 1–2</b> — O poder do Espírito Santo movendo a Igreja a testemunhar e viver a missão de Cristo com ousadia.</p>
 </div>
 
 <div class="book-card">
-<div class="cover"><small>E-BOOK 2</small><div><div class="symbol">✦</div><strong>IGREJA EM<br>MOVIMENTO</strong></div><small>Atos 3–5</small></div>
-<div class="book-info"><h3>Igreja em Movimento</h3><p>Uma igreja que avança, cura, prega, enfrenta oposição e vive generosidade e temor.</p><span class="tag">COMUNIDADE · CORAGEM · CUIDADO</span></div>
+<p class="chapter-label">CAPÍTULO 02</p>
+<p class="chapter-title">Igreja em Movimento</p>
+<p class="chapter-desc"><b>Atos 3–5</b> — Uma igreja que avança em cura, prega com coragem e enfrenta oposição com generosidade e temor a Deus.</p>
 </div>
 
 <div class="book-card">
-<div class="cover"><small>E-BOOK 3</small><div><div class="symbol">✦</div><strong>FÉ FORJADA<br>NO FOGO</strong></div><small>Atos 5–7</small></div>
-<div class="book-info"><h3>Uma Igreja Perseverante</h3><p>Fé, integridade, serviço e coragem para permanecer firme diante das provações.</p><span class="tag">FÉ · PERSEVERANÇA · SANTIDADE</span></div>
+<p class="chapter-label">CAPÍTULO 03</p>
+<p class="chapter-title">Fé Forjada no Fogo</p>
+<p class="chapter-desc"><b>Atos 5–7</b> — Fé e integridade forjadas no fogo, para permanecer firme diante das provações e perseguições.</p>
 </div>
 
 <div class="book-card">
-<div class="cover"><small>E-BOOK 4</small><div><div class="symbol">✦</div><strong>A MISSÃO<br>DA IGREJA</strong></div><small>Atos 8–9</small></div>
-<div class="book-info"><h3>A Missão da Igreja</h3><p>Missão, cuidado e avanço do Evangelho, rompendo fronteiras e levando a igreja à ação.</p><span class="tag">MISSÃO · CUIDADO · AVANÇO</span></div>
+<p class="chapter-label">CAPÍTULO 04</p>
+<p class="chapter-title">A Missão da Igreja</p>
+<p class="chapter-desc"><b>Atos 8–9</b> — O Evangelho rompe fronteiras, levando a Igreja à missão, ao cuidado e à ação prática.</p>
 </div>
 
 <div class="book-card">
-<div class="cover"><small>E-BOOK 5</small><div><div class="symbol">✦</div><strong>A EXPANSÃO<br>DA GRAÇA</strong></div><small>Atos 10–12</small></div>
-<div class="book-info"><h3>A Expansão da Graça</h3><p>Graça sem preconceitos, oração incessante e o Evangelho alcançando novas fronteiras.</p><span class="tag">GRAÇA · ORAÇÃO · EXPANSÃO</span></div>
+<p class="chapter-label">CAPÍTULO 05</p>
+<p class="chapter-title">A Expansão da Graça</p>
+<p class="chapter-desc"><b>Atos 10–12</b> — A Graça alcança novas fronteiras através da oração incessante e da quebra de preconceitos.</p>
 </div>
 
 <div class="book-card">
-<div class="cover"><small>E-BOOK</small><div><div class="symbol">✦</div><strong>DESPERTANDO O<br>DNA DA IGREJA</strong></div></div>
-<div class="book-info">
-<h3>Despertando o DNA da Igreja</h3>
-<p>Um convite para um avivamento prático em nossos dias. A pergunta que deve ecoar em nosso coração não é apenas o que Deus fez naquela época, mas o que estamos fazendo hoje com o mesmo Evangelho que transformou aquela geração.</p>
-<span class="tag">AVIVAMENTO · MISSÃO · CONTINUIDADE</span>
-</div>
+<p class="chapter-label">CAPÍTULO 06</p>
+<p class="chapter-title">Despertando o DNA da Igreja</p>
+<p class="chapter-desc"><b>Atos 29</b> — Um convite ao avivamento prático, vivendo hoje o mesmo Evangelho que transformou aquela geração.</p>
 </div>
 
 </div>
